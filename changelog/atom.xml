@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.hackerone.com/changelog</id>
     <title>HackerOne Platform Changelog</title>
-    <updated>2020-10-23T22:20:03.167Z</updated>
+    <updated>2020-10-30T23:49:29.743Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>HackerOne</name>
@@ -21,7 +21,31 @@
         <id>https://docs.hackerone.com/changelog/2020/october</id>
         <link href="https://docs.hackerone.com/changelog/2020/october"/>
         <updated>2020-10-01T07:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="microsoft-teams-integration" style="position:relative;"><a href="#microsoft-teams-integration" aria-label="microsoft teams integration permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Microsoft Teams Integration</h3>
+        <content type="html"><![CDATA[<h3 id="revamped-assigned-to-filter" style="position:relative;"><a href="#revamped-assigned-to-filter" aria-label="revamped assigned to filter permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Revamped Assigned To Filter</h3>
+<p>The <code>Me</code> filter for the <strong>Assigned to</strong> filter category now only shows reports that you are directly assigned to.</p>
+<p>To see all of the reports that are assigned to you and the groups you are a part of, you can select the new <code>Me and my groups</code> filter. </p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 472px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 67.19999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABrElEQVQ4y52TfW+iQBDG+f7fyERz/cNwbdLE1rtqe1RkUWjlVQRBYOHpPltrvKQ2d93kx2xmdmeGmVkDak0mE4xGIwwGAwyHQ4zHY5imiSzL8L/L4Ge322Gz2UAIAd/3EccxoihCVVWQUp5omgZ1XX8KbX3fw+i6DnmeIwgCRGGoZahkURRIkwRpmsLzPB1ov9/ry4fD4S+oK8tSBzV65bBUBxNeViRxgu12qw8QBmO2hFkwAV6kPN9/2Ixe/TJp2ha1Uray1ftKRSYHFb3XJwBJB8p2XoYP6EzXUCY5SvsFyZODaGYjni+x/eMifFjoPXWVG6B1Q/Rl/WVDdA1rsUHseJj/+o3F/Ond0p2fOqpeU8hod7p4CaNWkTNVt4Xr4Hlpw3t9gViv4HprzVI4cPw1Cl9lmBYnhxfHpgkzRPcWHq9u8PjjGrORCXEzhXf7AOfnHcT1PWxzgnwmgLLWCX+Zoeyk7q5tPcN1BBZKJmH0WYHQkWN3L2FwhjjIlmVhOp1q3NVKG9n15kiruvsvGBxgvhQOcKBeC4eac8gh/g4GHdEBoWO+X+6p/w5vxj3moeY+oUYAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="assigned to filter"
+        title="assigned to filter"
+        src="/static/907ee908d5c4186cbdf0fd648cc58d64/3c5de/oct_2020_assigned_to_filter.png"
+        srcset="/static/907ee908d5c4186cbdf0fd648cc58d64/fac75/oct_2020_assigned_to_filter.png 125w,
+/static/907ee908d5c4186cbdf0fd648cc58d64/63868/oct_2020_assigned_to_filter.png 250w,
+/static/907ee908d5c4186cbdf0fd648cc58d64/3c5de/oct_2020_assigned_to_filter.png 472w"
+        sizes="(max-width: 472px) 100vw, 472px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<h3 id="microsoft-teams-integration" style="position:relative;"><a href="#microsoft-teams-integration" aria-label="microsoft teams integration permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Microsoft Teams Integration</h3>
 <p>We introduce the <a href="/programs/microsoft-teams.html">Microsoft Teams integration</a> to all Enterprise programs. This enables Microsoft Teams users to keep up-to-date with what's happening in their program as they can now receive notifications of HackerOne report activities directly in their selected channels.</p>
 <p><span
       class="gatsby-resp-image-wrapper"
