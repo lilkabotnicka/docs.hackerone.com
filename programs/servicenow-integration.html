@@ -277,6 +277,7 @@
 </code></pre>
 <p>Make sure you enter the correct table name, as in this case, it's <em>incident</em>.</p>
 <ol start="9">
+<li>Click <strong>Submit</strong>.</li>
 <li>Copy the full URL to your endpoint and save it to be used for later. <ul><li>The full URL to the <code>/hackerone/new_comment</code> endpoint is required to set up the HackerOne integration. The namespace can be found from within the HackerOne Scripted REST API you just created, in the Resources tab underneath the Resource path column. Combine this with your instance URL found in the address bar to get the full URL.<li>As shown in the images below, this would be: <a href="https://dev100796.service-now.com/api/514345/hackerone/new_comment">https://dev100796.service-now.com/api/514345/hackerone/new_comment</a>.</li>
 </ol>
 <p><span
@@ -485,34 +486,6 @@
 <ol start="8">
 <li>Click <strong>Next</strong>.</li>
 <li>Copy the public listener URL in the configuration wizard.</li>
-<li>Go back to ServiceNow and open the Outbound REST Message,</li>
-<li>Paste the copied public listener URL in the <strong>Endpoint</strong> field.</li>
-</ol>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 27.200000000000003%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA1klEQVQY02WP227CMAyG+/7PN7EhxG5YQw50rClN0xz6z3YVuCDSJ7tx/NntlNb4OHzh8HlErzSMG6CNg7Y3wu15g+4s1a/G4nT+xuVHob9qKOLSKxxPZ3R5nhBDQFgWBIoxRpRaUUoRKuXMtm1S4zf3vxGPeRb89JDeKj0V3TpYlDXKRaRCSukpaSI+LP8dBnjvobWhjQ1t6zCOHgv1Afs7ES7ThIWmt8MS9uxsAstzzs9BnLc/aEM5dOnuEG4WmYppXWnDd3JO1MyyskcRldc3Rcjgin/k44NDfHTDHAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="servicenow-21"
-        title="servicenow-21"
-        src="/static/6802cb7afdcb450be7c46dba79e785fa/0b533/servicenow-21.png"
-        srcset="/static/6802cb7afdcb450be7c46dba79e785fa/fac75/servicenow-21.png 125w,
-/static/6802cb7afdcb450be7c46dba79e785fa/63868/servicenow-21.png 250w,
-/static/6802cb7afdcb450be7c46dba79e785fa/0b533/servicenow-21.png 500w,
-/static/6802cb7afdcb450be7c46dba79e785fa/1d69c/servicenow-21.png 750w,
-/static/6802cb7afdcb450be7c46dba79e785fa/00d43/servicenow-21.png 1000w,
-/static/6802cb7afdcb450be7c46dba79e785fa/912fc/servicenow-21.png 1934w"
-        sizes="(max-width: 500px) 100vw, 500px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-    </span></p>
-<ol start="12">
 <li>Click <strong>Enable</strong> to enable the integration.</li>
 </ol>
 <p><span
@@ -878,7 +851,7 @@
 </tr>
 <tr>
 <td>Authentication Type</td>
-<td>No authentication</td>
+<td>Inherit from parent</td>
 </tr>
 </tbody>
 </table>
